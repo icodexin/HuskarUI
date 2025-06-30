@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(HuskarUI_Solution)
 
-option(BUILD_HUSKARUI_GALLERY "Build HuskarUI Gallery." ON)
+option(BUILD_HUSKARUI_GALLERY "Build HuskarUI Gallery." OFF)
 option(BUILD_HUSKARUI_STATIC_LIBRARY "Build HuskarUI as a static library." OFF)
 
 #Build QWindowKit
