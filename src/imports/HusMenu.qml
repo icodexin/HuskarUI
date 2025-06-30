@@ -170,6 +170,11 @@ Item {
         __listView.model = [];
     }
 
+    function setInactive() {
+        __listView.currentIndex = -1;
+        __private.selectedItem = null;
+    }
+
     component MenuButton: HusButton {
         id: __menuButtonImpl
 

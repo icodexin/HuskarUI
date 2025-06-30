@@ -65,6 +65,8 @@ if(WIN32)
     )
 endif()
 
+qt_policy(SET QTP0004 NEW)
+
 qt_add_qml_module(${PROJECT_NAME}
     URI "HuskarUI.Basic"
     VERSION 1.0
